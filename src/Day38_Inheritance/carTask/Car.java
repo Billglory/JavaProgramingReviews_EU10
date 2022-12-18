@@ -16,16 +16,6 @@ public class Car {
         this.color = color;
         this.miles = miles;
     }
-}
-
-
-
-
-
-/*
-
-
-
     public void start(){
         System.out.println(brand +" "+ model + " is starting");
     }
@@ -34,12 +24,31 @@ public class Car {
         System.out.println(brand +" "+ model + " is driving");
     }
 
-
-    /*
-    public void fly(){
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                ", color='" + color + '\'' +
+                ", miles=" + miles +
+                '}';
     }
-    fly() is not common for all the cars, and parent class should only contain the common feature of all the subclasses
+}
+
+
+
+/*
+public void fly(){
+ fly() is not common for all the cars, and parent class should only contain the common feature of all the subclasses
     */
+
+
+
+
+
+
+
 /*
     public String toString() {
         return "Car{" +
