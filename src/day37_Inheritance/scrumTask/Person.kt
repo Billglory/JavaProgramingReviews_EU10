@@ -1,39 +1,19 @@
-package day37_Inheritance.scrumTask;
+package day37_Inheritance.scrumTask
 
-public class Person {
-    public String name;
-    public int age;
-    public char gender;
-
-    public Person(String name, int age, char gender) {
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
+open class Person(var name: String, var age: Int, var gender: Char) {
+    fun eat(food: String) {
+        println("$name is eating $food")
     }
 
-    public void eat(String food){
-        System.out.println(name + " is eating "+food );
-    }
-    public void drink(String drink){
-        System.out.println(name + " is drinking "+drink);
+    fun drink(drink: String) {
+        println("$name is drinking $drink")
     }
 
-    public String toString() {
+    override fun toString(): String {
         return "Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender=" + gender +
-                '}';
+                '}'
     }
-
-
 }
-/*
-Create a class named Person
-            variables:
-                name, age, gender
-            methods:
-                eat(String food)
-                drink(String drink)
-                toString()
- */

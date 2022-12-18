@@ -1,26 +1,11 @@
-package Day38_Inheritance.carTask;
+package Day38_Inheritance.carTask
 
-public class Toyota extends Car {
-
-
-    public Toyota(String brand, String model, int year, double price, String color, int miles) {
-        super(brand, model, year, price, color, miles);
+class Toyota(brand: String, model: String, year: Int, price: Double, color: String, miles: Int) : Car(brand, model, year, price, color, miles) {
+    fun reliable() {
+        println("$brand $model is reliable")
     }
 
-    public void reliable(){
-        System.out.println(brand+" "+model+" is reliable");
+    override fun start() {
+        println("Twist the key to ignition to start $brand $model")
     }
-
-
-    public void start(){
-        System.out.println("Twist the key to ignition to start "+brand+" "+model);
-    }
-
-
 }
-
-/*
-1. Toyota:
-					extra methods:
-							reliable()
- */
