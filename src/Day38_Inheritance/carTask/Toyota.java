@@ -1,6 +1,6 @@
 package Day38_Inheritance.carTask;
 
-public class Toyota {
+
     public class Toyota extends Car {
 
         public Toyota( String model, int year, double price, String color, int miles) {
@@ -24,4 +24,4 @@ public class Toyota {
 					extra methods:
 							reliable()
  */
-}
+

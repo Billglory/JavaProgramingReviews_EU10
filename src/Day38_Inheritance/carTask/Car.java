@@ -1,7 +1,7 @@
 package Day38_Inheritance.carTask;
 
-public class Car {
-    public class Car {
+
+    public class Car{
 
         public String brand, model;
         public int year;
@@ -56,4 +56,4 @@ Create a class called Car
 			instance methods:
 				start(), drive(),toString()
  */
-}
+

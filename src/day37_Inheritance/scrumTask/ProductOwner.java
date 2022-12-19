@@ -1,6 +1,6 @@
 package day37_Inheritance.scrumTask;
 
-public class productOwner {
+
     public class ProductOwner extends Employee{
 
 
@@ -12,4 +12,4 @@ public class productOwner {
 
     }
 
-}
+
