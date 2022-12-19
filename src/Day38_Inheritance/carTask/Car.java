@@ -19,7 +19,6 @@ package Day38_Inheritance.carTask;
             this.miles = miles;
         }
 
-
         public void start(){
             System.out.println(brand +" "+ model + " is starting");
         }
@@ -45,6 +44,7 @@ package Day38_Inheritance.carTask;
                     ", miles=" + miles +
                     '}';
         }
+
 
 
     }
