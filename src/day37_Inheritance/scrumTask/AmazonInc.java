@@ -1,7 +1,9 @@
 package day37_Inheritance.scrumTask;
 
 public class AmazonInc {
+
     public static void main(String[] args) {
+
 
         String company = "Amazon Inc";
 
@@ -56,4 +58,4 @@ public class AmazonInc {
     }
 
 }
-}
+
