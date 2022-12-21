@@ -17,7 +17,7 @@ public class car {
         this.miles = miles;
     }
 
-    
+
     public void start(){
         System.out.println(brand +" "+ model + " is starting");
     }
@@ -36,6 +36,7 @@ public class car {
                 ", miles=" + miles +
                 '}';
     }
+}
 
    /*
     public void fly(){
@@ -45,7 +46,7 @@ public class car {
     */
 
 
-}
+
 
 
 
