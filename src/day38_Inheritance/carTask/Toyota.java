@@ -10,14 +10,14 @@ public class Toyota extends car{
         System.out.println(brand+" "+model+" is reliable");
     }
 
+    public void start(){
+        System.out.println("Twist the key to ignition to start "+brand+" "+model);
+    }
 
 
 }
 
-/* public void start(){
-        System.out.println("Twist the key to ignition to start "+brand+" "+model);
-    }
-
+/*
 
 1. Toyota:
 					extra methods:
