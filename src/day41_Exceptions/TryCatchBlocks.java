@@ -34,7 +34,7 @@ public class TryCatchBlocks {
                 System.out.println(numbers[200]);
                 System.out.println("Try Block");
 
-            } catch (NullPointerException e) {
+            } catch (NullPointerException e1) {
                 System.out.println("Catch Block");
 
                 System.out.println("Null pointer");
