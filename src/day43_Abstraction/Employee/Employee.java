@@ -13,7 +13,7 @@ public abstract class Employee extends Person {
         }
         this.id = id;
         setJobTitle(jobTitle);
-        setJobTitle(jobTitle);
+        setSalary(salary);
     }
 
     public int getId() {
@@ -32,7 +32,7 @@ public abstract class Employee extends Person {
         return this.salary;
     }
 
-    public void setSalary(final double salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
