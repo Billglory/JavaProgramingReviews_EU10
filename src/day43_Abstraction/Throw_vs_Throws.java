@@ -24,19 +24,7 @@ public class Throw_vs_Throws {
             System.out.println("F");
         }
 
-
-
-    }
-
-}
-/*
-
-
-
-
-
-
-       // method1();
+        //method1();
 
     }
 
@@ -45,5 +33,4 @@ public class Throw_vs_Throws {
         Thread.sleep(5000);
     }
 
-
- */
+    }
