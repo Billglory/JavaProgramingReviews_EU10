@@ -1,6 +1,6 @@
 package Day44_OOPAbstraction.AnimalTask;
 
-public final class Tiger extends Animal {
+public final class Tiger extends Animal implements Playable {
 
     public Tiger(final String name, final String breed, final char gender, final int age, final String size, final String color) {
         super(name, breed, gender, age, size, color);
@@ -12,5 +12,10 @@ public final class Tiger extends Animal {
     }
     public void hunt() {
         System.out.println(getName()+" hunts deer");
+    }
+
+    @Override
+    public void play() {
+
     }
 }

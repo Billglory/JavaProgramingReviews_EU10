@@ -1,6 +1,6 @@
 package Day44_OOPAbstraction.AnimalTask;
 
-public  class Cat extends Animal {
+public  class Cat extends Animal implements Playable {
 
     public Cat(final String name, final String breed, final char gender, final int age, final String size, final String color) {
         super(name, breed, gender, age, size, color);
@@ -16,8 +16,10 @@ public  class Cat extends Animal {
         System.out.println(getName() + " is eating biryani");
     }
 
-    public void play() {
 
+    @Override
+    public void play() {
 
     }
 }
+
