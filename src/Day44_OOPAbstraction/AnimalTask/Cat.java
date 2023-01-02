@@ -1,6 +1,6 @@
 package Day44_OOPAbstraction.AnimalTask;
 
-public abstract class Cat extends Animal {
+public  class Cat extends Animal {
 
     public Cat(final String name, final String breed, final char gender, final int age, final String size, final String color) {
         super(name, breed, gender, age, size, color);
@@ -17,6 +17,7 @@ public abstract class Cat extends Animal {
     }
 
     public void play() {
+
 
     }
 }

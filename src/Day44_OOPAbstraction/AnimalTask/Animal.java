@@ -88,9 +88,7 @@ public abstract class Animal {
                 '}';
     }
 
-    public abstract void hunt();
 
-    public abstract void fly();
 }
 /*
     Animal Task:

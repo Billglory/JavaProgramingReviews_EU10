@@ -1,6 +1,6 @@
 package Day44_OOPAbstraction.AnimalTask;
 
-public class Dog extends Animal{
+public final class Dog extends Animal {
 
     public Dog(final String name, final String breed, final char gender, final int age, final String size, final String color) {
         super(name, breed, gender, age, size, color);
