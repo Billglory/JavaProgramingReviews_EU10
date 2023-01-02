@@ -1,6 +1,6 @@
 package Day45_Abstraction.Shape;
 
-public class Cube extends Shape{
+public class Cube extends Shape implements Volume{
 
 
     public Cube(final String name) {
@@ -14,6 +14,11 @@ public class Cube extends Shape{
 
     @Override
     public double perimeter() {
+        return 0;
+    }
+
+    @Override
+    public double volume() {
         return 0;
     }
 }
