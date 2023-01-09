@@ -56,19 +56,19 @@ public class ReferenceTypeCastings {
     Teacher teacher = (Teacher) employee; // line 3
 
 
-
         System.out.println("----------------------------------------------------");
-
-    }
-
-    }
-/*
-
-
-
-
 
         Shape s1 = new Circle(10);
         s1.area();
         s1.perimeter();
- */
+
+    }
+
+    }
+
+
+
+
+
+
+
