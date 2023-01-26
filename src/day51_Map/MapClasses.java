@@ -64,6 +64,8 @@ public class MapClasses {
 
         System.out.println("hashtable = " + hashtable);
 
+        //   String str = null;
+        // System.out.println(str.toUpperCase());
 
 
 
@@ -88,8 +90,6 @@ public class MapClasses {
 
 
 
-     //   String str = null;
-       // System.out.println(str.toUpperCase());
 
 
     }
