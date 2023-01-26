@@ -18,12 +18,25 @@ public class MapClasses {
         hashMap.put(40, "Emma");
         hashMap.put(5, "Ahmet");
         hashMap.put(5, "Isabella");
-        hashMap.put(6, null);
         hashMap.put(7, null);
         hashMap.put(8, null);
         hashMap.put(null, null);
+        //hashMap.put(6, "Ahmet");
+        //hashMap.put(7, "Ahmet");
+        //hashMap.put(8, "Ahmet");
+        hashMap.put(null, "Cihad");
         hashMap.put(null, "Emre");
         hashMap.put(null, "Hulya");
+
+
+
+     /*
+
+      */
+
+
+
+
 
         System.out.println("hashMap = " + hashMap);
 
