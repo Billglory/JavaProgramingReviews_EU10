@@ -48,31 +48,12 @@ public class IterablePractice {
 
         System.out.println("===================================================");
 
-
-    }
-}
-/*
-
-
-
-
-
-
-        /*
-
-
-
-    */
-/*
-
-
-
         List<Integer> list3 = new ArrayList<>(Arrays.asList(1,2,3,4,5,1,2,3,4,5,1,2,3,4,5));
 
         for( Iterator<Integer> i=list3.iterator() ; i.hasNext() ; ){
-        if(i.next() < 4 ){
-        i.remove();
-        }
+            if(i.next() < 4 ){
+                i.remove();
+            }
         }
 
         System.out.println(list3);
@@ -86,9 +67,16 @@ public class IterablePractice {
         System.out.println(list4);
 
 
+    }
+}
+
+
+/*
 
 
 
-        }
+
+
+
 
  */
