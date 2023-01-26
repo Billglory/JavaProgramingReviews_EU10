@@ -2,6 +2,7 @@ package day50_Collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class IterablePractice {
@@ -16,40 +17,55 @@ public class IterablePractice {
                 list.remove(i);
             }
         }
+        System.out.println(list);
+        System.out.println("===================================================");
+
+        List<Integer> list2 = new ArrayList<>(Arrays.asList(1,2,3,4,5,1,2,3,4,5,1,2,3,4,5)); // true
+       // List<Integer> list2 = new ArrayList<>(Arrays.asList()); // false
+
+        //  remove all the elements that are less than 4
+
+        Iterator<Integer> it = list2.iterator();
+/*
+        boolean r1 = it.hasNext();
+        System.out.println(r1);
+
+        System.out.println(it.next());
+
+        boolean r2 = it.hasNext();
+        System.out.println(r2);
+        System.out.println(it.next());
+
+
+ */
+
+        while(it.hasNext()){
+            if( it.next()  < 4 ){
+                it.remove();
+            }
+        }
+        System.out.println(list2);
+
+        System.out.println("===================================================");
+
 
     }
 }
 /*
 
 
-        System.out.println(list);
 
-        System.out.println("===================================================");
 
-        List<Integer> list2 = new ArrayList<>(Arrays.asList(1,2,3,4,5,1,2,3,4,5,1,2,3,4,5));
 
-        //  remove all the elements that are less than 4
-
-        Iterator<Integer> it = list2.iterator();
 
         /*
-        boolean r1 = it.hasNext();
-        System.out.println(r1);
-        System.out.println(it.next());
-        boolean r2 = it.hasNext();
-        System.out.println(r2);
-        System.out.println(it.next());
+
+
+
     */
 /*
-        while(it.hasNext()){
-                if( it.next()  < 4 ){
-        it.remove();
-        }
-        }
 
-        System.out.println(list2);
 
-        System.out.println("===================================================");
 
         List<Integer> list3 = new ArrayList<>(Arrays.asList(1,2,3,4,5,1,2,3,4,5,1,2,3,4,5));
 
