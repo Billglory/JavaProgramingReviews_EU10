@@ -48,25 +48,11 @@ public class MapMethods {
         System.out.println(r1);
         System.out.println(r2);
 
-
-
-    }
-}
-/*
-
-
-
-
-
-
-
         boolean r3 = students.containsValue(97);
 
         System.out.println(r3);
 
-
         System.out.println(students.isEmpty());
-
 
         System.out.println("-------------------------");
 
@@ -78,6 +64,7 @@ public class MapMethods {
 
 
         System.out.println("map1 = " + map1);
+
         System.out.println("map2 = " + map2);
 
         System.out.println(map1 ==  map2);
@@ -92,7 +79,5 @@ public class MapMethods {
 
 
 
-
     }
-
- */
+}
