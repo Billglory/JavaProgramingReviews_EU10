@@ -61,12 +61,5 @@ public class MapPractice4 {
 }
 }
 
-    }  }
-
-/*
-
-
-
-
-
- */
+    }
+}
