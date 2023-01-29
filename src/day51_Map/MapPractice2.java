@@ -50,38 +50,6 @@ public class MapPractice2 {
 
         System.out.println(name1);
         System.out.println(name2);
-    }
-}
-
-
-
- /*
-        //   display the names of the employees  who has the maximum  salary?
-        int maxSalary = Integer.MIN_VALUE;
-        for (Integer eachValue : map.values()) {
-            if (eachValue > maxSalary) {
-                maxSalary = eachValue;
-
-            }
-        }
-         */
-
-  /*      int maxSalary = Collections.max(map.values());
-
-        System.out.println("maxSalary =" + maxSalary);
-
-        for (Map.Entry<String, Integer> pair : map.entrySet()) {
-            if (pair.getValue() == maxSalary) {
-                System.out.println(pair.getKey());
-
-
-            }
-        }
-          */
-
-/*
-
-
 
         System.out.println("----------------------------------------------");
 
@@ -120,12 +88,11 @@ public class MapPractice2 {
             }
         }
 
-        System.out.println(map);
+        System.out.println(map); //Antony=110000, Jimmy=125000, , James=120000, Conor=95000, Josh=127000, Cory=128000, Anderson=125000,
 
     }
-
-
 }
+
 
 /*
 1. Given the following map that contains the employee name and thier salary:
