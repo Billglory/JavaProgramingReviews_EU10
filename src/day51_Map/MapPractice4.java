@@ -43,40 +43,28 @@ public class MapPractice4 {
 
         System.out.println(groups);
 
-
-}
-}
-
-
-/*
-
-
-    ArrayList<String> group1 = new ArrayList<>(Arrays.asList( "Duygu","Magda","Farangez","Edison","Kerem","Farangis" ));
-    ArrayList<String> group2 = new ArrayList<>(Arrays.asList( "Margie","Vesele","Iryn","Nilufar","Aziza","Nurcan","Raika","Igor","Elif","Sana","Azamat" ));
-    ArrayList<String> group9 = new ArrayList<>(Arrays.asList( "Alex","Ali","Andriy","Cassandra","Sevgul","Olha","Tito","Ozan","Serkan","Furkan","Madina","Muharrem" ));
-    ArrayList<String> group24 = new ArrayList<>(Arrays.asList( "Maria","Kristina","Amin","George","Layan","Amin","Yulia","George","Ayanle","Maxim","Nermin","Doughlas" ));
-    ArrayList<String> group5 = new ArrayList<>(Arrays.asList("Nazar","Veronika","Mikael","Layla","Badmaa","Zaeir","Anna","Tamara","Eugene" ));
-
-
-
-
-
-        /*
-        for (String each : groups.get(24)) {
+  /*      for (String each : groups.get(24)) {
             System.out.println(each);
         }
-        */
+
+   */
+
+        System.out.println(groups.get(2).get(1));
+
+
+        System.out.println("------------------------------------------------");
+
+        for (ArrayList<String> eachGroup : groups.values()) {
+            for (String eachName : eachGroup) {
+                System.out.println(eachName);
+
+}
+}
+
+    }  }
+
 /*
-                System.out.println(groups.get(2).get(1));
 
-
-                System.out.println("------------------------------------------------");
-
-                for (ArrayList<String> eachGroup : groups.values()) {
-        for (String eachName : eachGroup) {
-        System.out.println(eachName);
-        }
-        }
 
 
 
