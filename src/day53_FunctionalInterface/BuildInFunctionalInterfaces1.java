@@ -94,9 +94,10 @@ public class BuildInFunctionalInterfaces1 {
 
         System.out.println(l);
 
-/*
 
         System.out.println("-------------------------------------------");
+
+
         Function<List<Integer>, int[]> convertToArray = (a) -> {
             int[] result = new int[a.size()];
             for (int i = 0; i < a.size(); i++) {
@@ -112,6 +113,13 @@ public class BuildInFunctionalInterfaces1 {
 
         System.out.println("-------------------------------------------");
 
+    }
+}
+/*
+
+
+
+
         // create a function that can return the maximum number from an int array
 
         // create a function that can swap the first and last elements of an array
@@ -123,5 +131,4 @@ public class BuildInFunctionalInterfaces1 {
 
  */
 
-    }
-}
+
