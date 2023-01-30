@@ -115,11 +115,6 @@ public class BuildInFunctionalInterfaces1 {
 
     }
 }
-/*
-
-
-
-
         // create a function that can return the maximum number from an int array
 
         // create a function that can swap the first and last elements of an array
@@ -129,6 +124,6 @@ public class BuildInFunctionalInterfaces1 {
         // create a function that can reverse a List
 
 
- */
+
 
 
